@@ -1,0 +1,14 @@
+{
+    "name": "Heroes app frontend",
+    "repository": "https://github.com/Cieciol/hero-app-front",
+    "logo": "https://angular.io/assets/images/logos/angular/angular.svg",
+    "keywords": ["node", "express", "static"],
+    "scripts": {
+        "postinstall": "ng build --aot -prod"
+      }, 
+      "buildpacks": [
+        {
+          "url": "https://github.com/heroku/heroku-buildpack-nodejs"
+        }
+      ]
+}
